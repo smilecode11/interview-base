@@ -15,4 +15,3 @@ function flat2(arr) {
     }, [])).slice()
 }
 console.log(flat2([2, [1, 2, 3, 44, [44, 55]]], 2))
-

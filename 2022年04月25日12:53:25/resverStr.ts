@@ -9,4 +9,9 @@ function resverStr(str: string) {
   return tempArr.join("");
 }
 
-resverStr('Hello world!')
+resverStr("Hello world!");
+
+function reverseStr(str) {
+  return str.split("").reverse().join("");
+}
+reverseStr("hello, world!")

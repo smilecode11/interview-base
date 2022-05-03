@@ -16,11 +16,11 @@ function sort(start, end, arr) {
     let left = start;
     let right = end;
     while (left !== right) {
-        while (arr[right] >= arr[left] && right > left) {
+        while (arr[right] >= base && right > left) {
             right--;
         }
         arr[left] = arr[right];
-        while (arr[left] <= arr[right] && right > left) {
+        while (arr[left] <= base && right > left) {
             left++;
         }
         arr[right] = arr[left]

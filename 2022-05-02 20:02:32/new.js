@@ -8,7 +8,6 @@ function _new(context) {
     return typeof result === 'object' ? result : obj
 }
 
-
 function Foo(name) {
     this.name = name;
     this.run = function () {
